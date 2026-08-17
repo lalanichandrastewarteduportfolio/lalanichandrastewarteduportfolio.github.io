@@ -12,6 +12,7 @@
 :root{--ink:#101585;--forest:#101585;--sage:#e2725b;--sage-soft:#101585;--cream:#f7f7ff;--plum:#e2725b;--paper:#ffffff}.nav{border-bottom-color:rgba(16,21,133,.16);background:rgba(255,255,255,.94)}.intro{color:#45498e}.about{background:#f7f7ff}.heroArt{border-color:rgba(16,21,133,.16)}.portfolio .sectionNumber{color:var(--plum)}.sectionHeading>p{color:#e1e2fa}.workCard{border-color:rgba(16,21,133,.18)}.workCard p{color:#505482}.workTitleLink{display:inline-block}.workTitleLink:hover{color:var(--plum)}.workLink{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:auto;padding-top:20px;border-top:1px solid #e2e2f2;color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.7px;line-height:1.45}.workLink:hover{color:var(--plum)}.reflections em{color:var(--ink)}.cvCard>div{border-bottom-color:#d8d9ee}.contact p:not(.eyebrow){color:#d9daf4}
 .intro .rankHighlight{color:var(--plum)}
 .about .aboutText{max-width:760px;margin:0 0 20px;color:#526662;font-size:17px;line-height:1.8}
+.glance{padding:34px clamp(24px,8vw,130px);background:var(--cream);border-top:1px solid rgba(16,21,133,.14);border-bottom:1px solid rgba(16,21,133,.14)}.glanceInner{display:grid;grid-template-columns:1.1fr repeat(4,1fr);gap:28px;align-items:start}.glance h2{margin:0;font-size:30px;line-height:1;font-style:italic;color:var(--plum);letter-spacing:-.03em}.glanceItem{min-height:72px;padding-left:20px;border-left:1px solid rgba(16,21,133,.2)}.glanceItem span{display:block;margin-bottom:9px;color:var(--plum);font-size:9px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase}.glanceItem p{margin:0;color:var(--ink);font:18px/1.35 Georgia,serif}@media(max-width:900px){.glanceInner{grid-template-columns:repeat(2,1fr)}.glance h2{grid-column:1/-1}.glanceItem:nth-of-type(odd){border-left:0;padding-left:0}}@media(max-width:520px){.glance{padding:34px 20px}.glanceInner{grid-template-columns:1fr;gap:22px}.glance h2{grid-column:auto}.glanceItem,.glanceItem:nth-of-type(odd){min-height:0;padding:18px 0 0;border-left:0;border-top:1px solid rgba(16,21,133,.2)}}
 </style>
 </head>
 <body>
@@ -30,6 +31,13 @@
 </div>
 <div class="heroArt"><img class="heroPortrait" src="assets/lalani-headshot.jpeg" alt="Lalani Chandra-Stewart smiling"></div>
 </section>
+<section class="glance" aria-labelledby="glance-title"><div class="glanceInner">
+<h2 id="glance-title">At a glance</h2>
+<div class="glanceItem"><span>Teacher training</span><p>Primary PGCE at UCL</p></div>
+<div class="glanceItem"><span>Education</span><p>First-class BA Education Studies</p></div>
+<div class="glanceItem"><span>Experience</span><p>Nursery, nannying and primary schools</p></div>
+<div class="glanceItem"><span>Key interests</span><p>Play-based learning, transitions and inclusion</p></div>
+</div></section>
 <section class="portfolio section" id="portfolio">
 <div class="sectionHeading"><div><p class="sectionNumber">01 / SELECTED WORK</p><h2>A growing <em>portfolio.</em></h2></div><p>Writing and projects displaying my journey towards becoming an organised, research-informed and attentive teacher children deserve to have.</p></div>
 <div class="workGrid">
